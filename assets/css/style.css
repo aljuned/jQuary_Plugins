@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Wavify */
+
+.wave-area {
+    height: 300px;
+    width: 100%;
+    margin: 50px 0px;
+    overflow: hidden;
+}
+
+svg {
+    height: 100vh;
+    width: 100%;
+}
+
+
+/* Firefly */
+
+#firefly {
+    width: 100%;
+    height: 300px;
+    background: #0bd;
+    margin: 50px 0;
+    overflow: hidden;
+}
+
+
+/* nice selection */
+
+.nice-select {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.nice-select .list {
+    width: 100%;
+}
+
+
+/* Elevate zoom */
+
+.elevate-zoom img {
+    width: 100%;
+}
+
+
+/* Particles */
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    background-color: #b61924;
+}
+
+
+/* Preloader */
+
+#loading {
+    background-color: #374140;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    margin-top: 0px;
+    top: 0px;
+}
+
+#loading-center {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#loading-center-absolute {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: -75px;
+    margin-left: -75px;
+}
+
+.object {
+    width: 20px;
+    height: 20px;
+    background-color: #FFF;
+    float: left;
+    margin-right: 20px;
+    margin-top: 65px;
+    -moz-border-radius: 50% 50% 50% 50%;
+    -webkit-border-radius: 50% 50% 50% 50%;
+    border-radius: 50% 50% 50% 50%;
+}
+
+#object_one {
+    -webkit-animation: object_one 1.5s infinite;
+    animation: object_one 1.5s infinite;
+}
+
+#object_two {
+    -webkit-animation: object_two 1.5s infinite;
+    animation: object_two 1.5s infinite;
+    -webkit-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+}
+
+#object_three {
+    -webkit-animation: object_three 1.5s infinite;
+    animation: object_three 1.5s infinite;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+@-webkit-keyframes object_one {
+    75% {
+        -webkit-transform: scale(0);
+    }
+}
+
+@keyframes object_one {
+    75% {
+        transform: scale(0);
+        -webkit-transform: scale(0);
+    }
+}
+
+@-webkit-keyframes object_two {
+    75% {
+        -webkit-transform: scale(0);
+    }
+}
+
+@keyframes object_two {
+    75% {
+        transform: scale(0);
+        -webkit-transform: scale(0);
+    }
+}
+
+@-webkit-keyframes object_three {
+    75% {
+        -webkit-transform: scale(0);
+    }
+}
+
+@keyframes object_three {
+    75% {
+        transform: scale(0);
+        -webkit-transform: scale(0);
+    }
+}
+
+
+/* bg video */
+
+.BG-video {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+
+/* Srolll opacity */
+
+.scroll-opacity {
+    position: relative;
+    background: #ff22;
+    padding: 300px 0px;
+    overflow: hidden;
+}
+
+.people-opacity {
+    background: #6f0a6e;
+    ;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    transition: .3s;
+    position: absolute;
+}
+
+
+/* Google-map */
+
+#contact-map {
+    width: 100%;
+    height: 500px;
+}
+
+
+/* popup */
+
+.magnify-popup-wrap a img {
+    width: 100%;
+}
